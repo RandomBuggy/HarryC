@@ -1,0 +1,35 @@
+command:- gcc -Wall --save-temps *.c -o *
+
+# 5 steps is needed by a compiler to compile a programme
+1.pre-procrssing
+2.compilation
+3.assembly
+4.linking
+
+In pre-procrssing step,
+
+comments are removed, macros are expended, all pre-processed files are saved into one file with necessary lines of code
+
+pre-processed output file is *.i
+
+In compilation step,
+
+*.i file is converted into assembly language instructions 
+
+compiled output file is *.s
+
+
+In assembly step,
+
+assembly code converted into binary or machine level instructions
+
+assembled output file is *.o
+
+
+In linking step,
+
+the linker packed all *.o files into a executable file in linux just abc but in windows abc.exe. two types of linking static and dynamic.
+
+static like *.exe
+
+dynamic like *.dll (in windows)

@@ -1,0 +1,1 @@
+think you {{name}} for purchasing the {{item}} from {{outlet}} and your bill is {{bill}}
